@@ -82,6 +82,14 @@ main{
 }
 
 
+.main-nav {
+	display: flex;
+}
+
+.user-profile {
+	margin-left: 20px;
+}
+
 nav{
     background-color: var(--headerClr);
     width: 100%;
@@ -92,7 +100,7 @@ nav{
 .navbar {
 	display: flex;
 	flex-wrap: wrap;
-	width: 870px;
+	width: 928px;
 	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
@@ -282,6 +290,18 @@ nav .logo img{
         width: 100%;
         text-align: center;
     }
+    
+    .navbar {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
     .players ,.blogs , .courses{
         grid-template-columns: repeat(1,1fr);
     
