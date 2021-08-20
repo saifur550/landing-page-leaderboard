@@ -35,9 +35,9 @@
    <main>
     <section class="container">
         <div class="top-players ">
-            <h2 class="heading">top players</h2>
+            <h2 id="main-heading" class="heading">top players</h2>
             <div class="players">
-                <div class="player">
+                <div class="player" id="first">
                     <img src="./img/players/player-1.png" alt="">
                     <h3 class = "player-name">john smith</h3>
                 </div>
@@ -66,8 +66,8 @@
         <hr class="line">
         <div class="top-blogs">
             <h2 class="heading">top blogs</h2>
-            <div class="blogs">
-                <article class="blog">
+            <div class="blogs" id="first-blog">
+                <article  class="blog">
                     <div class="thumbnail">
                         <img src="./img/blogs/blog-1.png" alt="">
                     </div>
@@ -198,12 +198,37 @@
                 </div>
             </div>
     </section>
+    <div class="container">
+        <section id="link-item">
+            <ul  id="list">
+              <li id="link">facebook</li> 
+              <li id="link">facebook</li> 
+              <li id="link">facebook</li> 
+              <li id="link">facebook</li> 
+            </ul>
+ 
+            <button onclick="addItem()" id="btn">Add item </button>
+        </section>
+        <br> <br>
+
+        <div>
+            <label for="">CountDown</label> <br> <br>
+            <input id="num" type="number" placeholder="Enter The click button"> <br> <br>
+            <button id="count-btn">click</button>
+        </div>
+
+        <br>
+
+        <div>
+            <label for=""> set up a fix number </label> <br> <br>
+            <input id="num1" type="number" placeholder="Enter The click button"> <br> <br>
+            <button id="count-btn1">click</button>
+        </div>
+    </div>
     <!-- latest courses -->
    </main>
-    <!-- team section end -->
-    <!-- header start -->
-    <!-- header end -->
-
+  
+<script src="./js/main.js"></script>
 </body>
 </html>
 
